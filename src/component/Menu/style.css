@@ -1,0 +1,21 @@
+.menu {
+  display: flex;
+  width: 60%;
+  height: auto;
+  margin:  20px auto;
+  flex:1;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu li {
+  display: inline-block;
+  margin-left: 35px;
+  font-weight: bold;
+  color : #666;
+}
+
+.menu li:hover {
+  color: yellow;
+  cursor: pointer;
+}
